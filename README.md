@@ -13,7 +13,7 @@
     2. java -jar ./target/lightning-alert-1.0.jar  <Lightning JSON file> <Asset JSON file>
        * Ex: java -jar ./target/lightning-alert-1.0.jar  lightning.json assets.json
 
-Additional Questions:
+**Additional Questions:**
 * What is the time complexity for determining if a strike has occurred for a particular asset?
     * O(n)
 * If we put this code into production, but found it too slow, or it needed to scale to many more users or more frequent strikes, what are the first things you would think of to speed it up?
