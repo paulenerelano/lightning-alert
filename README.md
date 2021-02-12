@@ -9,7 +9,7 @@
 **How to Run**
 * Execute the following commands in a terminal
     1. mvn install
-    2. java -jar ./target/lightning-alert-1.0.jar  <Lightning JSON file> <Asset JSON file>
+    2. java -jar ./target/lightning-alert-1.0.jar  < Lightning JSON file > < Asset JSON file >
        * Ex: java -jar ./target/lightning-alert-1.0.jar  lightning.json assets.json
 
 **Additional Questions:**
