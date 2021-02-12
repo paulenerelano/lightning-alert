@@ -3,8 +3,7 @@
 * Java 1.8
 
 **Assumptions**
-* Only one asset per quadKey
-    * If this is incorrect, need to represent assets as Map<quadKey, List<Asset>>
+* Only one asset per location
 * An alert will be notified regardless if lightning hit the cloud/ground (i.e. notify if flashType is 0 or 1)
 
 **How to Run**
